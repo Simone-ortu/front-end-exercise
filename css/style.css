@@ -240,14 +240,13 @@ body {
   }
 
   .cards{
-    height: fit-content;
+    height: 500px;
   }
 
   .cards-container {
-    width: 70vw;
-    margin-top: auto;
+    width: 100vh;
+    margin-top: 0;
     display: flex;
-    flex-flow: column wrap;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
@@ -256,10 +255,10 @@ body {
 
   .card {
     position: relative;
-    width: calc(70vw / 1.99);
+    width: calc(70vw / 2);
     background-color: white;
     min-height: 350px;
-    margin-top: auto;
+    margin-top: 0;
   }
 
 }
@@ -337,7 +336,26 @@ body {
 
   /*Cards*/
   .cards{
-    height: 1000px;
+    height: 1400px;
+    margin-top: -150px;
+  }
+  .cards-container {
+    width: 70vh;
+    margin-top: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    transform: translateY(22%);
+    padding: 0;
+  }
+  .card {
+    position: relative;
+    width: calc(70vw / 1.5);
+    background-color: white;
+    min-height: 350px;
+    margin-bottom: 20px;
   }
 
 }
@@ -351,7 +369,7 @@ body {
     width: 100vw;
     position: relative;
     overflow: hidden;
-    height: 238px;
+    height: 250px;
   }
 
 
@@ -387,6 +405,30 @@ body {
     transform: translateX(-150%);
     cursor: pointer;
   }
+
+  .cards{
+    height: 1400px;
+    margin-top: -150px;
+  }
+  .cards-container {
+    width: 70vh;
+    margin-top: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    transform: translateY(22%);
+    padding: 0;
+  }
+  .card {
+    position: relative;
+    width: calc(70vw / 1);
+    background-color: white;
+    min-height: 350px;
+    margin-bottom: 20px;
+  }
+
 }
 
 
